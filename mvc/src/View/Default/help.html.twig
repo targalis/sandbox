@@ -1,0 +1,47 @@
+{% extends "layout.html.twig" %}
+
+{% block content %}
+
+Help functions: <br /><br />
+
+Get Url: app.getUrl()<br />
+{{ app.getUrl() }}<br /><br />
+
+Get Path: app.getPath()<br />
+{{ app.getPath() }}<br /><br />
+
+Get BaseUrl: app.getBaseUrl()<br />
+{{ app.getBaseUrl() }}<br /><br />
+
+Get BasePath: app.getBasePath()<br />
+{{ app.getBasePath() }}<br /><br />
+
+Get Route: app.getRoute()<br />
+{{ app.getRoute() }}<br /><br />
+
+Get Controller: app.getController()<br />
+{{ app.getController() }}<br /><br />
+
+Get Action: app.getAction()<br />
+{{ app.getAction() }}<br /><br />
+
+Get Params: app.getParams()<br />
+Get Params:<br />
+{% for param in app.getParams() %}
+ - {{ param }}<br />
+{% endfor %}
+<br />
+
+Generate Asset: app.asset('home')<br />
+{{ app.asset('home') }}<br /><br />
+
+Generate Url: app.url('home')<br />
+{{ app.url('home') }}<br /><br />
+
+Generate Path: app.path('home')<br />
+{{ app.path('home') }}<br /><br />
+
+Translate: app.translate(already, fr)<br />
+{{ app.translate('already', 'fr') }}<br /><br />
+
+{% endblock %}

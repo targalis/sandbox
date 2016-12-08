@@ -1,0 +1,3 @@
+/mvc/config/cache/
+/mvc/config/logs/
+composer.lock
