@@ -69,12 +69,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/zanra/framework.git",
-            "reference": "a662215d99908eefe572c35377aeb7adc389ec27"
+            "reference": "c7c442c85bdee4d542f970d774cc3094e2e8043b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/zanra/framework/zipball/a662215d99908eefe572c35377aeb7adc389ec27",
-            "reference": "a662215d99908eefe572c35377aeb7adc389ec27",
+            "url": "https://api.github.com/repos/zanra/framework/zipball/c7c442c85bdee4d542f970d774cc3094e2e8043b",
+            "reference": "c7c442c85bdee4d542f970d774cc3094e2e8043b",
             "shasum": ""
         },
         "require": {
@@ -84,7 +84,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.0"
         },
-        "time": "2016-12-08 07:24:19",
+        "time": "2016-12-09 02:06:49",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
